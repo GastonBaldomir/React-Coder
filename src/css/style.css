@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color:  rgb(216, 0, 32);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(144, 142, 228);
+    align-items: center;
+    padding: 1rem;
+}
+.nav-menu{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+.nav-link{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+}
+.productos-list{
+    min-height: 30vh;
+    display: grid;
+    place-items: center;
+}
