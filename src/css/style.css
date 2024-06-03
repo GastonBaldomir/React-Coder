@@ -6,6 +6,10 @@
 h1{
     color:  rgb(216, 0, 32);
 }
+.logo{
+    font-style: italic;
+    
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -27,4 +31,20 @@ h1{
     min-height: 30vh;
     display: grid;
     place-items: center;
+}
+.productos-card{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 5px;
+}
+.gridClass{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 25px;
+}
+.productos-card-detalle{
+    border: 2px solid rgb(216, 40, 40);
+    text-align: center;
+    margin: 50px;
 }
