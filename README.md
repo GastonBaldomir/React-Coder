@@ -25,10 +25,13 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
    ```bash
    git clone https://github.com/tu-usuario/tienda-coder.git
 2. Navega al directorio del proyecto:
+
     cd tienda-coder
 3. Instala las dependencias:
+
     npm install7
 4. Crea un archivo `.env` en la raíz del proyecto con tu configuración de Firebase:
+
     REACT_APP_FIREBASE_API_KEY=tu-api-key
     REACT_APP_FIREBASE_AUTH_DOMAIN=tu-auth-domain
     REACT_APP_FIREBASE_PROJECT_ID=tu-project-id
@@ -36,6 +39,7 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
     REACT_APP_FIREBASE_MESSAGING_SENDER_ID=tu-messaging-sender-id
     REACT_APP_FIREBASE_APP_ID=tu-app-id
 5. Inicia la App:
+
     npm start
 
 ## Uso
