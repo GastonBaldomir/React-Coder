@@ -3,12 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
-    color:  rgb(216, 0, 32);
+
+a{
+    text-decoration: none;
 }
 .logo{
     font-style: italic;
-    
+    color: white;
+    text-decoration: underline;
+}
+.logo:hover{
+    color: black;
 }
 .header{
     display: flex;
@@ -16,6 +21,7 @@ h1{
     background-color: rgb(144, 142, 228);
     align-items: center;
     padding: 1rem;
+    margin-bottom: 30px;
 }
 .nav-menu{
     display: flex;
@@ -24,8 +30,27 @@ h1{
 }
 .nav-link{
     text-decoration: none;
-    color:black;
+    color:rgb(255, 255, 255);
     font-size: 18px;
+}
+.nav-link:hover{
+    color: black;
+}
+.carrito-card{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 75px;
+}
+.carrito-card-producto{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ gap: 2rem;
+ border-radius: 5px;
+ padding: 10px;
 }
 .productos-list{
     min-height: 30vh;
@@ -36,7 +61,23 @@ h1{
     border: 2px solid black;
     text-align: center;
     border-radius: 5px;
+    padding: 10px;
 }
+.link-card{
+    margin: 10px;
+}
+.titulo-card{
+    margin: 15px;
+    
+}
+.precio-card{
+    margin: 10px;
+    font-size: large;
+}
+.button-card{
+    margin: 5px;
+}
+
 .gridClass{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -44,7 +85,74 @@ h1{
     padding: 25px;
 }
 .productos-card-detalle{
-    border: 2px solid rgb(216, 40, 40);
+    align-items: center;
+    border: 2px solid black;
     text-align: center;
-    margin: 50px;
+    width: 450px;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 10px;
 }
+.mostrar-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+ margin: 45px;
+}
+.forms-input{
+    border: solid 2px black;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.error{
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(144, 142, 228);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid 2px black;
+    margin: 5px;
+}
+.buttons:hover{
+    background-color: rgb(92, 91, 150);
+}
+.boton-eliminar{
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: rgb(144, 142, 228);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid 2px black;
+    margin: 5px;
+}
+.boton-eliminar:hover{
+    background-color:  rgb(92, 91, 150);
+} 
+.boton-finalizar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(144, 142, 228);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid 2px black;
+    margin: 5px;
+  }
+  
+  .boton-finalizar:hover {
+    background-color: rgb(92, 91, 150);
+  }
+  .titulo{
+    margin: 20px;
+    text-decoration: underline;
+  }
+  

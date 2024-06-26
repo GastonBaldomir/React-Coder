@@ -10,9 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "alert": "^6.0.1",
+    "bootstrap": "^5.3.3",
+    "firebase": "^10.12.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.23.1"
+    "react-hook-form": "^7.52.0",
+    "react-router-dom": "^6.23.1",
+    "sweet": "^0.1.1",
+    "sweetalert": "^2.1.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

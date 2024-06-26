@@ -1,17 +1,21 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
+import { CartContext } from '../context/CartContext'
 
 const Item = ({productos}) => {
+  
+  const {carrito} = useContext(CartContext);
+ 
   return (
     <div className='productos-card'>
-          <h3>{productos.nombre}</h3>
+          <h2 className='titulo-card'>{productos.nombre}</h2>      
+          <img src={productos.imagen} alt={productos.nombre} style={{ width: '130px', height: '130px' }} />
           <p>{productos.descripcion}</p>
-          <p>Precio: ${productos.precio}</p>
-          <p>Categoría: {productos.categoria}</p>
-          <img src={productos.imagen} alt={productos.nombre} style={{ width: '100px', height: '100px' }} />
-          <div>
-            <Link to={`/Item/${productos.id}`}>Ver Info.</Link>
+          <h3 className='precio-card'> $ {productos.precio}</h3>
+          <div className='link-card'>
+            <Link to={`/Item/${productos.id}`} className='boton-finalizar'>Ver Info.</Link>
           </div>
+          
     </div>
   )
 }

@@ -6,7 +6,7 @@ const ItemsList = ({productos, titulo}) => {
     <div >
         <h2 className=''>{titulo}</h2>
         <div className='gridClass'>
-          {productos.map((prod) => <Item productos = {prod} key={productos.id } />)}
+          {productos.map((prod) => <Item productos = {prod} key={prod.id } />)}
         </div>
     </div>
   )
